@@ -22,7 +22,17 @@ header {
   justify-content: space-between;
   width: 50%;
   margin: 0 auto;
-  margin-top: 3rem;
+  margin-top: 2rem;
+}
+
+header h1 {
+  font-family: 'monospace';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #FFFFFF;
 }
 
 .content {
@@ -44,13 +54,98 @@ header {
   background: #fef8f8;
   border-radius: 11px;
   border: 0;
+  padding-left: 1rem;
+
+
+}
+
+.search input:focus{
+  outline: none;
+}
+
+
+#input-search {
+  background-image: url("../images//Rectangle\ 4.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 720px;
+  cursor: pointer;
+}
+
+.search input::placeholder {
+  font-family: 'monospace';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
 }
 
 .describe {
-    width: 910px;
-    height: 619px;
+  width: 910px;
+  height: 619px;
   background: rgba(255, 255, 255, 0.9);
   border-radius: 11px;
   margin: 0 auto;
   margin-top: 1rem;
+}
+
+.describe .imageUser {
+  width: 100%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.describe .data {
+  width: 676px;
+  height: 100px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.describe .data {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.describe .data span {
+  width: 150px;
+
+  font-family: 'monospace';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+  margin-top: 2rem;
+}
+
+
+.describe .links {
+
+  width: 676px;
+
+  margin: 2rem auto;
+}
+
+.describe .divLinks {
+  margin-top: 29px;
+
+}
+
+
+.describe .divLinks span {
+  font-family: 'monospace';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+
 }
